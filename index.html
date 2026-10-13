@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zure Express LDA - Sua Loja Virtual em Angola</title>
+    <!-- Tailwind CSS para Estilização Moderna -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- FontAwesome para Ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .bg-primary { background-color: #0052FF; }
+        .text-primary { color: #0052FF; }
+        .bg-secondary { background-color: #FF6B00; }
+        .text-secondary { color: #FF6B00; }
+        .border-primary { border-color: #0052FF; }
+        .border-secondary { border-color: #FF6B00; }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans text-gray-800">
+
+    <!-- CABEÇALHO -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <!-- Ícone simulando o logotipo circular -->
+                <div class="w-10 h-10 rounded-full bg-primary flex items-center justify-center text-white font-bold text-xl shadow">
+                    Z
+                </div>
+                <span class="text-xl font-extrabold text-gray-900 tracking-wide">ZURE <span class="text-secondary">EXPRESS</span></span>
+            </div>
+            <nav class="hidden md:flex space-x-8 font-medium">
+                <a href="#inicio" class="hover:text-primary transition">Início</a>
+                <a href="#recursos" class="hover:text-primary transition">Recursos</a>
+                <a href="#como-funciona" class="hover:text-primary transition">Como Funciona</a>
+                <a href="#planos" class="hover:text-primary transition">Preços</a>
+            </nav>
+            <div>
+                <a href="#criar-loja" class="bg-secondary hover:bg-opacity-90 text-white px-5 py-2.5 rounded-lg font-semibold shadow transition">Criar Minha Loja</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="inicio" class="bg-primary text-white py-20">
+        <div class="container mx-auto px-6 text-center md:text-left flex flex-col md:flex-row items-center justify-between">
+            <div class="md:w-1/2 mb-10 md:mb-0">
+                <span class="bg-white text-primary text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">Feito para Empreendedores em Angola</span>
+                <h1 class="text-4xl md:text-5xl font-extrabold mt-4 mb-6 leading-tight">Crie a sua Loja Virtual em Minutos</h1>
+                <p class="text-lg text-blue-100 mb-8">Venda os seus produtos online para todo o território angolano de forma rápida, segura e sem complicações técnicas.</p>
+                <div class="flex flex-col sm:flex-row justify-center md:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
+                    <a href="#criar-loja" class="bg-secondary hover:bg-opacity-90 text-white font-bold px-8 py-3.5 rounded-lg text-center shadow-lg transition">Começar Grátis</a>
+                    <a href="#como-funciona" class="bg-transparent border-2 border-white hover:bg-white hover:text-primary font-bold px-8 py-3.5 rounded-lg text-center transition">Saber Mais</a>
+                </div>
+            </div>
+            <div class="md:w-1/2 flex justify-center">
+                <!-- Simulação Visual do App -->
+                <div class="bg-white p-6 rounded-2xl shadow-2xl text-gray-800 w-full max-w-md">
+                    <div class="flex justify-between items-center mb-4 border-b pb-3">
+                        <span class="font-bold text-primary">Painel Zure Express</span>
+                        <span class="text-xs bg-green-100 text-green-800 px-2 py-1 rounded font-semibold">Online</span>
+                    </div>
+                    <div class="space-y-3">
+                        <div class="bg-gray-100 p-3 rounded-lg flex justify-between items-center">
+                            <span class="text-sm font-medium">Total de Vendas</span>
+                            <span class="font-bold text-secondary">3.250.000 Kz</span>
+                        </div>
+                        <div class="bg-gray-100 p-3 rounded-lg flex justify-between items-center">
+                            <span class="text-sm font-medium">Novos Pedidos</span>
+                            <span class="font-bold text-primary">14 Pendentes</span>
+                        </div>
+                    </div>
+                    <div class="mt-5 text-center">
+                        <p class="text-xs text-gray-500">A sua loja pronta para aceitar pagamentos locais e entregas em Luanda e províncias.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RECURSOS -->
+    <section id="recursos" class="py-20 bg-white">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-extrabold text-gray-900 mb-4">Tudo o que precisa para vender online</h2>
+            <p class="text-gray-600 max-w-2xl mx-auto mb-16">Ferramentas poderosas desenvolvidas especialmente para impulsionar negócios no mercado angolano.</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
+                <div class="bg-gray-50 p-8 rounded-xl shadow-sm border border-gray-100">
+                    <div class="w-12 h-12 bg-primary text-white rounded-lg flex items-center justify-center text-xl mb-6 shadow">
+                        <i class="fa-solid fa-store"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Vitrine Personalizada</h3>
+                    <p class="text-gray-600">Tenha um site com o nome da sua marca, catálogo de produtos organizado e link próprio para partilhar nas redes sociais.</p>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-xl shadow-sm border border-gray-100">
+                    <div class="w-12 h-12 bg-secondary text-white rounded-lg flex items-center justify-center text-xl mb-6 shadow">
+                        <i class="fa-solid fa-truck-fast"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Gestão de Entregas</h3>
+                    <p class="text-gray-600">Configure zonas de entrega em Luanda e províncias, controlando taxas e status dos envios em tempo real.</p>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-xl shadow-sm border border-gray-100">
+                    <div class="w-12 h-12 bg-primary text-white rounded-lg flex items-center justify-center text-xl mb-6 shadow">
+                        <i class="fa-solid fa-chart-line"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Controle de Vendas</h3>
+                    <p class="text-gray-600">Acompanhe o seu stock, receba notificações de novos pedidos diretamente e analise o crescimento do seu negócio.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- COMO FUNCIONA -->
+    <section id="como-funciona" class="py-20 bg-gray-100">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-extrabold text-gray-900 mb-4">Como Criar a Sua Loja em 3 Passos</h2>
+            <p class="text-gray-600 max-w-xl mx-auto mb-16">Processo simplificado para colocar o seu negócio na internet instantaneamente.</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-xl shadow relative">
+                    <div class="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-primary text-white w-8 h-8 rounded-full flex items-center font-bold">1</div>
+                    <h3 class="text-lg font-bold mt-4 mb-2">Registe-se Grátis</h3>
+                    <p class="text-gray-600 text-sm">Insira o nome da sua marca, dados de contacto e crie a sua conta na Zure Express.</p>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow relative">
+                    <div class="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-secondary text-white w-8 h-8 rounded-full flex items-center font-bold">2</div>
+                    <h3 class="text-lg font-bold mt-4 mb-2">Adicione os Produtos</h3>
+                    <p class="text-gray-600 text-sm">Carregue fotos, descrições e preços dos seus artigos de forma rápida e intuitiva.</p>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow relative">
+                    <div class="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-primary text-white w-8 h-8 rounded-full flex items-center font-bold">3</div>
+                    <h3 class="text-lg font-bold mt-4 mb-2">Comece a Vender</h3>
+                    <p class="text-gray-600 text-sm">Partilhe o link da sua nova loja virtual com clientes no WhatsApp, Instagram e Facebook.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FORMULÁRIO / CHAMADA PARA AÇÃO -->
+    <section id="criar-loja" class="py-20 bg-white">
+        <div class="container mx-auto px-6 max-w-xl">
+            <div class="bg-primary p-8 md:p-12 rounded-2xl shadow-xl text-white text-center">
+                <h2 class="text-2xl md:text-3xl font-extrabold mb-3">Pronto para expandir o seu negócio?</h2>
+                <p class="text-blue-100 mb-8">Junte-se a dezenas de empreendedores angolanos que já vendem online.</p>
+                
+                <form onsubmit="event.preventDefault(); alert('Parabéns! O registo da sua loja foi submetido com sucesso. Entraremos em contacto em breve.');" class="space-y-4 text-left">
+                    <div>
+                        <label class="block text-sm font-semibold mb-1">Nome do Empreendedor / Responsável</label>
+                        <input type="text" required class="w-full px-4 py-3 rounded-lg text-gray-800 focus:outline-none" placeholder="Ex: Ana Paula">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-semibold mb-1">Nome da Sua Loja</label>
+                        <input type="text" required class="w-full px-4 py-3 rounded-lg text-gray-800 focus:outline-none" placeholder="Ex: Boutique Luanda Express">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-semibold mb-1">Telemóvel / WhatsApp</label>
+                        <input type="tel" required class="w-full px-4 py-3 rounded-lg text-gray-800 focus:outline-none" placeholder="Ex: +244 923 000 000">
+                    </div>
+                    <button type="submit" class="w-full bg-secondary hover:bg-opacity-90 font-bold py-3.5 rounded-lg shadow transition mt-2">Criar Minha Loja Agora</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer class="bg-gray-900 text-gray-400 py-12">
+        <div class="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
+            <div class="mb-6 md:mb-0 flex items-center space-x-3">
+                <div class="w-8 h-8 rounded-full bg-secondary flex items-center justify-center text-white font-bold text-sm">
+                    Z
+                </div>
+                <span class="text-white font-bold text-lg">ZURE EXPRESS LDA</span>
+            </div>
+            <p class="text-sm text-center md:text-right">&copy; 2026 Zure Express Lda. Todos os direitos reservados. Feito para Angola.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
